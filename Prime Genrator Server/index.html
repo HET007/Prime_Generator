@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <title> 
+      PRIME ENGINE | Sending PRIME data to server. 
+    </title> 
+  </head> 
+  
+  
+  <body style="text-align:center;" id="body"> 
+    <h1> 
+      Prime generation engine 
+    </h1> 
+  
+    <p> 
+
+        <input style="padding: 5px; margin-top: 5px;" type="text" id="name" placeholder="Your name"><br>
+        <input style="padding: 5px; margin-top: 5px;" type="text" id="pMin" placeholder="Minimum Prime Number"><br> 
+        <input style="padding: 5px; margin-top: 5px;" type="text" id="pMax" placeholder="Maximum Prime Number"><br>
+        <h4 style="margin-top: -5px; margin-bottom: 0px;">
+          Select performance optimizations Algorithm
+        </h4><br>
+        <select style="margin-bottom: 20px;" id="algoId">
+            <option value=1>Low</option>
+            <option value=2>High</option>
+        </select><br>
+
+        <button onclick="sendJSON()">Submit</button> 
+   </p> <hr>
+   <p class="result">
+    <h3 style="font-size: 120%">
+      Results
+    </h1><br>
+     <h3 style="margin-top: 5px; color : gray ;"  id="rName"></h3><br>
+     <h3 style="margin-top: 5px; color : gray ;"  id="time"></h3><br>
+     <h3 style="margin-top: 5px; color : gray ;" id="outResult"></h3><br>
+   </p>
+    <script src="index.js"></script> 
+  </body> 
+</html>
