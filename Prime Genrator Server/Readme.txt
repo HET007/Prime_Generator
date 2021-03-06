@@ -15,5 +15,3 @@ The database which is used in this project is mysql
 after running the application you just simply open index.html file which is in this folder
 
 from where you'll get the web layout for this engine.
-
-you may gothrough the demo video if you have any query.
